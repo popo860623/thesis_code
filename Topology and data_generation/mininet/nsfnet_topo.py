@@ -134,9 +134,7 @@ def generate_flow(net, n_files, G):
                 all_pairs_shortest_path.append(nx.shortest_path(G, i, j))
 
     while n_files:
-        if n_files == 3800:
-            break
-        traffic_dir = 'traffic_dir/new_result_test_util/RPSP/10ms/'
+        traffic_dir = 'traffic_dir/new_result_test_util/RPSP/10ms/'  # log file output directory
         if not os.path.exists(traffic_dir + str(n_files)):
             os.makedirs(traffic_dir + str(n_files))
             traffic_dir += str(n_files)
@@ -155,8 +153,11 @@ def generate_flow(net, n_files, G):
             # create cmd ping
             server_cmd = "START_TIME=$(date +%s%3N) && "  # get begin time
             pkt_size = 1000
-            server_cmd += "ping -c 250 -s " + \
-                str(pkt_size) + " -i 0.01 " + dst.IP()
+            # ping command
+            #   -c : packet count
+            #   -i : packet interval
+            #   -s : packet size
+            server_cmd += "ping -c 250 -s " + str(pkt_size) + " -i 0.01 " + dst.IP()                      
             server_cmd += " > " + traffic_dir + "/" + str(i) + ".log && "
             server_cmd += "echo path = " + \
                 str(path) + " >> " + traffic_dir + "/" + str(i) + ".log && "
