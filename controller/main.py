@@ -22,7 +22,6 @@ import ArpHandler_QPSP_gbn
 import ArpHandler_ML_gbn
 import ArpHandler_SP_gbn
 
-
 class ShortestPath(app_manager.RyuApp):
     OFP_VERSIONS = [ofproto_v1_3.OFP_VERSION]
     _CONTEXTS = {
