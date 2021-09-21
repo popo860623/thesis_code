@@ -29,9 +29,9 @@ class ShortestPath(app_manager.RyuApp):
         # "ArpHandler": ArpHandler_opt_gbn.ArpHandler
         # "ArpHandler": ArpHandler_ML3.ArpHandler
         # "ArpHandler": ArpHandler_ML_gbn.ArpHandler
-        # "ArpHandler": ArpHandler_SP.ArpHandler
+        "ArpHandler": ArpHandler_SP.ArpHandler
         # "ArpHandler": ArpHandler_SP_gbn.ArpHandler
-        "ArpHandler": ArpHandler_RPSP.ArpHandler
+        # "ArpHandler": ArpHandler_RPSP.ArpHandler
         # "ArpHandler": ArpHandler_RPSP_gbn.ArpHandler
         # "ArpHandler": ArpHandler_QPSP.ArpHandler
         # "ArpHandler": ArpHandler_QPSP_gbn.ArpHandler

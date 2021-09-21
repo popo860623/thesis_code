@@ -1,5 +1,3 @@
-# author: ParanoiaUPC
-# email: 757459307@qq.com
 from ryu.base import app_manager
 from ryu.controller import ofp_event
 from ryu.controller.handler import CONFIG_DISPATCHER, MAIN_DISPATCHER
@@ -30,7 +28,7 @@ import time
 import statistics
 
 graphPredict = tf.Graph()
-graph_path = '/home/hao/backup_thesis/nsfnetbw/graph_attr.txt'
+graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/nsfnetbw/graph_attr.txt'
 G = nx.Graph()
 G = nx.read_gml(graph_path, destringizer=int)
 
@@ -189,7 +187,7 @@ class ArpHandler(app_manager.RyuApp):
 
     #####################################################################################
     def create_Cap_Mat(self):
-        G = nx.read_gml('/home/hao/backup_thesis/nsfnetbw/graph_attr.txt', destringizer=int)
+        G = nx.read_gml(graph_path, destringizer=int)
         self.cap_mat = np.full((G.number_of_nodes()+1, G.number_of_nodes()+1), fill_value=0)
         for node in range(G.number_of_nodes()):
             for adj in G[node]:
