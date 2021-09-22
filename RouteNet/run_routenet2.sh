@@ -7,8 +7,12 @@ fi
 
 if [[ "$1" = "train" ]]; then
 
-    python3 routenet_with_link_cap2.py train --hparams="l2=0.1,dropout_rate=0.5,link_state_dim=64,path_state_dim=64,readout_units=256,learning_rate=0.0001,T=4"  --train  $2/tfrecords/train_nsf_1KB_2ms_200/*.tfrecords --train_steps $3 --eval_ $2/tfrecords/eval_nsf_1KB_2ms_200/*.tfrecords --model_dir ./nsf_1KB_2ms_200/
-
+    python3 routenet_with_link_cap2.py train \
+	--hparams="l2=0.1,dropout_rate=0.5,link_state_dim=64,path_state_dim=64,readout_units=256,learning_rate=0.0001,T=4"\
+	--train  $2/train_example/*.tfrecords\
+	--train_steps $3\
+	--eval_ $2/eval_example/*.tfrecords\ 
+	--model_dir ./example_model/
 fi
 
 if [[ "$1" = "train_multiple" ]]; then

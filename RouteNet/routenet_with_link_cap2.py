@@ -63,11 +63,7 @@ def parse(serialized, target='delay'):
             for k in ['traffic', target, 'link_capacity', 'links', 'paths', 'sequences']:
                 features[k] = tf.sparse.to_dense(features[k])
   
-                # if k == 'traffic':
-                #     features[k] = (features[k]) / 58
-                # if k == 'link_capacity':
-                #     features[k] = (features[k] ) / 40000
-                # tf.print('==================================')
+            
 
     # print ('features[target] = ', tf.print(features[target]) )
 
