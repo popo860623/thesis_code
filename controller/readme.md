@@ -9,8 +9,8 @@
 used to handle packet_in event.
 
 * NSFNet & GBNNet is seperated:
-	* NSFNet ArpHandler file name is : ArpHandler_algo.py
-	* GBNNet ArpHandler file name is : ArpHandler_algo_gbn.py
+	* NSFNet ArpHandler file name is : ArpHandler_<algo>_nsf.py
+	* GBNNet ArpHandler file name is : ArpHandler_<algo>_gbn.py
 
 * routnet_with_link_cap2.py:
 	RouteNet algorithm, ML will use this program
