@@ -1,0 +1,18 @@
+PING 10.0.0.11 (10.0.0.11) 1000(1028) bytes of data.
+From 10.0.0.14 icmp_seq=31 Destination Host Unreachable
+From 10.0.0.14 icmp_seq=115 Destination Host Unreachable
+From 10.0.0.14 icmp_seq=177 Destination Host Unreachable
+1008 bytes from 10.0.0.11: icmp_seq=243 ttl=64 time=81.9 ms
+1008 bytes from 10.0.0.11: icmp_seq=244 ttl=64 time=86.4 ms
+1008 bytes from 10.0.0.11: icmp_seq=245 ttl=64 time=98.6 ms
+1008 bytes from 10.0.0.11: icmp_seq=246 ttl=64 time=109 ms
+1008 bytes from 10.0.0.11: icmp_seq=247 ttl=64 time=102 ms
+1008 bytes from 10.0.0.11: icmp_seq=248 ttl=64 time=118 ms
+1008 bytes from 10.0.0.11: icmp_seq=249 ttl=64 time=120 ms
+1008 bytes from 10.0.0.11: icmp_seq=250 ttl=64 time=130 ms
+
+--- 10.0.0.11 ping statistics ---
+250 packets transmitted, 8 received, +3 errors, 96% packet loss, time 8440ms
+rtt min/avg/max/mdev = 81.983/105.946/130.120/15.746 ms, pipe 6
+path = [13, 10, 9]
+duration=8616

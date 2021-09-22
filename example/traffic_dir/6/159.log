@@ -1,0 +1,40 @@
+PING 10.0.0.12 (10.0.0.12) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.12: icmp_seq=4 ttl=64 time=2946 ms
+1008 bytes from 10.0.0.12: icmp_seq=5 ttl=64 time=2926 ms
+1008 bytes from 10.0.0.12: icmp_seq=7 ttl=64 time=2937 ms
+1008 bytes from 10.0.0.12: icmp_seq=3 ttl=64 time=2995 ms
+1008 bytes from 10.0.0.12: icmp_seq=8 ttl=64 time=2948 ms
+1008 bytes from 10.0.0.12: icmp_seq=6 ttl=64 time=2964 ms
+1008 bytes from 10.0.0.12: icmp_seq=9 ttl=64 time=2989 ms
+1008 bytes from 10.0.0.12: icmp_seq=13 ttl=64 time=2945 ms
+1008 bytes from 10.0.0.12: icmp_seq=12 ttl=64 time=2943 ms
+1008 bytes from 10.0.0.12: icmp_seq=14 ttl=64 time=2933 ms
+1008 bytes from 10.0.0.12: icmp_seq=15 ttl=64 time=2959 ms
+1008 bytes from 10.0.0.12: icmp_seq=17 ttl=64 time=2936 ms
+1008 bytes from 10.0.0.12: icmp_seq=18 ttl=64 time=2984 ms
+1008 bytes from 10.0.0.12: icmp_seq=19 ttl=64 time=2990 ms
+1008 bytes from 10.0.0.12: icmp_seq=20 ttl=64 time=3006 ms
+1008 bytes from 10.0.0.12: icmp_seq=21 ttl=64 time=3006 ms
+1008 bytes from 10.0.0.12: icmp_seq=22 ttl=64 time=3014 ms
+1008 bytes from 10.0.0.12: icmp_seq=23 ttl=64 time=3007 ms
+1008 bytes from 10.0.0.12: icmp_seq=24 ttl=64 time=3021 ms
+1008 bytes from 10.0.0.12: icmp_seq=25 ttl=64 time=3022 ms
+1008 bytes from 10.0.0.12: icmp_seq=29 ttl=64 time=3000 ms
+1008 bytes from 10.0.0.12: icmp_seq=30 ttl=64 time=3167 ms
+1008 bytes from 10.0.0.12: icmp_seq=31 ttl=64 time=3242 ms
+1008 bytes from 10.0.0.12: icmp_seq=32 ttl=64 time=3247 ms
+1008 bytes from 10.0.0.12: icmp_seq=33 ttl=64 time=3249 ms
+1008 bytes from 10.0.0.12: icmp_seq=34 ttl=64 time=3237 ms
+1008 bytes from 10.0.0.12: icmp_seq=35 ttl=64 time=3214 ms
+1008 bytes from 10.0.0.12: icmp_seq=36 ttl=64 time=3188 ms
+1008 bytes from 10.0.0.12: icmp_seq=37 ttl=64 time=3195 ms
+1008 bytes from 10.0.0.12: icmp_seq=41 ttl=64 time=3146 ms
+1008 bytes from 10.0.0.12: icmp_seq=42 ttl=64 time=3175 ms
+1008 bytes from 10.0.0.12: icmp_seq=43 ttl=64 time=3134 ms
+1008 bytes from 10.0.0.12: icmp_seq=44 ttl=64 time=3141 ms
+
+--- 10.0.0.12 ping statistics ---
+250 packets transmitted, 33 received, 86% packet loss, time 11390ms
+rtt min/avg/max/mdev = 2926.538/3055.201/3249.009/111.471 ms, pipe 94
+path = [10, 11]
+duration=17962

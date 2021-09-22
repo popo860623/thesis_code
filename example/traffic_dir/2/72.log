@@ -1,0 +1,2 @@
+PING 10.0.0.13 (10.0.0.13) 1000(1028) bytes of data.
+From 10.0.0.6 icmp_seq=184 Destination Host Unreachable

@@ -1,0 +1,23 @@
+PING 10.0.0.4 (10.0.0.4) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=781 ms
+1008 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=779 ms
+1008 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=770 ms
+1008 bytes from 10.0.0.4: icmp_seq=8 ttl=64 time=749 ms
+1008 bytes from 10.0.0.4: icmp_seq=9 ttl=64 time=748 ms
+1008 bytes from 10.0.0.4: icmp_seq=13 ttl=64 time=787 ms
+1008 bytes from 10.0.0.4: icmp_seq=14 ttl=64 time=773 ms
+1008 bytes from 10.0.0.4: icmp_seq=10 ttl=64 time=839 ms
+1008 bytes from 10.0.0.4: icmp_seq=12 ttl=64 time=878 ms
+1008 bytes from 10.0.0.4: icmp_seq=16 ttl=64 time=848 ms
+1008 bytes from 10.0.0.4: icmp_seq=21 ttl=64 time=863 ms
+1008 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=1250 ms
+1008 bytes from 10.0.0.4: icmp_seq=17 ttl=64 time=1124 ms
+1008 bytes from 10.0.0.4: icmp_seq=33 ttl=64 time=784 ms
+1008 bytes from 10.0.0.4: icmp_seq=18 ttl=64 time=1120 ms
+1008 bytes from 10.0.0.4: icmp_seq=34 ttl=64 time=825 ms
+
+--- 10.0.0.4 ping statistics ---
+250 packets transmitted, 16 received, 93% packet loss, time 5003ms
+rtt min/avg/max/mdev = 748.754/870.444/1250.718/148.837 ms, pipe 69
+path = [4, 3]
+duration=7573

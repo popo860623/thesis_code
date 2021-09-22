@@ -1,0 +1,96 @@
+PING 10.0.0.12 (10.0.0.12) 1000(1028) bytes of data.
+From 10.0.0.9 icmp_seq=40 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=41 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=42 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=43 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=56 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=57 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=58 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=59 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=64 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=65 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=66 Destination Host Unreachable
+From 10.0.0.9 icmp_seq=67 Destination Host Unreachable
+1008 bytes from 10.0.0.12: icmp_seq=174 ttl=64 time=0.012 ms
+1008 bytes from 10.0.0.12: icmp_seq=175 ttl=64 time=0.033 ms
+1008 bytes from 10.0.0.12: icmp_seq=176 ttl=64 time=1.65 ms
+1008 bytes from 10.0.0.12: icmp_seq=177 ttl=64 time=0.033 ms
+1008 bytes from 10.0.0.12: icmp_seq=178 ttl=64 time=0.043 ms
+1008 bytes from 10.0.0.12: icmp_seq=179 ttl=64 time=0.012 ms
+1008 bytes from 10.0.0.12: icmp_seq=180 ttl=64 time=0.565 ms
+1008 bytes from 10.0.0.12: icmp_seq=181 ttl=64 time=0.012 ms
+1008 bytes from 10.0.0.12: icmp_seq=182 ttl=64 time=1.85 ms
+1008 bytes from 10.0.0.12: icmp_seq=183 ttl=64 time=0.024 ms
+1008 bytes from 10.0.0.12: icmp_seq=184 ttl=64 time=0.024 ms
+1008 bytes from 10.0.0.12: icmp_seq=185 ttl=64 time=0.045 ms
+1008 bytes from 10.0.0.12: icmp_seq=186 ttl=64 time=0.069 ms
+1008 bytes from 10.0.0.12: icmp_seq=187 ttl=64 time=0.054 ms
+1008 bytes from 10.0.0.12: icmp_seq=188 ttl=64 time=0.086 ms
+1008 bytes from 10.0.0.12: icmp_seq=189 ttl=64 time=0.372 ms
+1008 bytes from 10.0.0.12: icmp_seq=190 ttl=64 time=0.030 ms
+1008 bytes from 10.0.0.12: icmp_seq=191 ttl=64 time=0.091 ms
+1008 bytes from 10.0.0.12: icmp_seq=192 ttl=64 time=0.030 ms
+1008 bytes from 10.0.0.12: icmp_seq=193 ttl=64 time=2.96 ms
+1008 bytes from 10.0.0.12: icmp_seq=194 ttl=64 time=2.92 ms
+1008 bytes from 10.0.0.12: icmp_seq=195 ttl=64 time=0.013 ms
+1008 bytes from 10.0.0.12: icmp_seq=196 ttl=64 time=0.012 ms
+1008 bytes from 10.0.0.12: icmp_seq=197 ttl=64 time=0.022 ms
+1008 bytes from 10.0.0.12: icmp_seq=198 ttl=64 time=0.012 ms
+1008 bytes from 10.0.0.12: icmp_seq=199 ttl=64 time=0.013 ms
+1008 bytes from 10.0.0.12: icmp_seq=200 ttl=64 time=0.013 ms
+1008 bytes from 10.0.0.12: icmp_seq=201 ttl=64 time=0.148 ms
+1008 bytes from 10.0.0.12: icmp_seq=202 ttl=64 time=2.18 ms
+1008 bytes from 10.0.0.12: icmp_seq=203 ttl=64 time=0.106 ms
+1008 bytes from 10.0.0.12: icmp_seq=204 ttl=64 time=0.662 ms
+1008 bytes from 10.0.0.12: icmp_seq=205 ttl=64 time=0.984 ms
+1008 bytes from 10.0.0.12: icmp_seq=206 ttl=64 time=0.053 ms
+1008 bytes from 10.0.0.12: icmp_seq=207 ttl=64 time=0.039 ms
+1008 bytes from 10.0.0.12: icmp_seq=208 ttl=64 time=2.17 ms
+1008 bytes from 10.0.0.12: icmp_seq=209 ttl=64 time=0.010 ms
+1008 bytes from 10.0.0.12: icmp_seq=210 ttl=64 time=0.012 ms
+1008 bytes from 10.0.0.12: icmp_seq=211 ttl=64 time=0.057 ms
+1008 bytes from 10.0.0.12: icmp_seq=212 ttl=64 time=0.011 ms
+1008 bytes from 10.0.0.12: icmp_seq=213 ttl=64 time=0.722 ms
+1008 bytes from 10.0.0.12: icmp_seq=214 ttl=64 time=1.49 ms
+1008 bytes from 10.0.0.12: icmp_seq=215 ttl=64 time=0.064 ms
+1008 bytes from 10.0.0.12: icmp_seq=216 ttl=64 time=0.077 ms
+1008 bytes from 10.0.0.12: icmp_seq=217 ttl=64 time=0.168 ms
+1008 bytes from 10.0.0.12: icmp_seq=218 ttl=64 time=0.047 ms
+1008 bytes from 10.0.0.12: icmp_seq=219 ttl=64 time=0.055 ms
+1008 bytes from 10.0.0.12: icmp_seq=220 ttl=64 time=0.067 ms
+1008 bytes from 10.0.0.12: icmp_seq=221 ttl=64 time=1.51 ms
+1008 bytes from 10.0.0.12: icmp_seq=222 ttl=64 time=0.011 ms
+1008 bytes from 10.0.0.12: icmp_seq=223 ttl=64 time=0.012 ms
+1008 bytes from 10.0.0.12: icmp_seq=224 ttl=64 time=0.013 ms
+1008 bytes from 10.0.0.12: icmp_seq=225 ttl=64 time=0.014 ms
+1008 bytes from 10.0.0.12: icmp_seq=226 ttl=64 time=2.89 ms
+1008 bytes from 10.0.0.12: icmp_seq=227 ttl=64 time=0.078 ms
+1008 bytes from 10.0.0.12: icmp_seq=228 ttl=64 time=0.043 ms
+1008 bytes from 10.0.0.12: icmp_seq=229 ttl=64 time=0.053 ms
+1008 bytes from 10.0.0.12: icmp_seq=230 ttl=64 time=0.080 ms
+1008 bytes from 10.0.0.12: icmp_seq=231 ttl=64 time=0.075 ms
+1008 bytes from 10.0.0.12: icmp_seq=232 ttl=64 time=0.091 ms
+1008 bytes from 10.0.0.12: icmp_seq=233 ttl=64 time=0.028 ms
+1008 bytes from 10.0.0.12: icmp_seq=234 ttl=64 time=0.036 ms
+1008 bytes from 10.0.0.12: icmp_seq=235 ttl=64 time=0.025 ms
+1008 bytes from 10.0.0.12: icmp_seq=236 ttl=64 time=0.899 ms
+1008 bytes from 10.0.0.12: icmp_seq=237 ttl=64 time=0.038 ms
+1008 bytes from 10.0.0.12: icmp_seq=238 ttl=64 time=0.024 ms
+1008 bytes from 10.0.0.12: icmp_seq=239 ttl=64 time=0.124 ms
+1008 bytes from 10.0.0.12: icmp_seq=240 ttl=64 time=0.023 ms
+1008 bytes from 10.0.0.12: icmp_seq=241 ttl=64 time=0.077 ms
+1008 bytes from 10.0.0.12: icmp_seq=242 ttl=64 time=0.025 ms
+1008 bytes from 10.0.0.12: icmp_seq=243 ttl=64 time=1.85 ms
+1008 bytes from 10.0.0.12: icmp_seq=244 ttl=64 time=0.038 ms
+1008 bytes from 10.0.0.12: icmp_seq=245 ttl=64 time=0.011 ms
+1008 bytes from 10.0.0.12: icmp_seq=246 ttl=64 time=0.050 ms
+1008 bytes from 10.0.0.12: icmp_seq=247 ttl=64 time=0.517 ms
+1008 bytes from 10.0.0.12: icmp_seq=248 ttl=64 time=0.794 ms
+1008 bytes from 10.0.0.12: icmp_seq=249 ttl=64 time=0.009 ms
+1008 bytes from 10.0.0.12: icmp_seq=250 ttl=64 time=0.549 ms
+
+--- 10.0.0.12 ping statistics ---
+250 packets transmitted, 77 received, +12 errors, 69% packet loss, time 28643ms
+rtt min/avg/max/mdev = 0.009/0.391/2.962/0.739 ms, pipe 5
+path = [8, 11]
+duration=28656

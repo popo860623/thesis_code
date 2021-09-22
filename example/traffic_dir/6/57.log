@@ -1,0 +1,38 @@
+PING 10.0.0.5 (10.0.0.5) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.5: icmp_seq=7 ttl=64 time=638 ms
+1008 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=677 ms
+1008 bytes from 10.0.0.5: icmp_seq=9 ttl=64 time=620 ms
+1008 bytes from 10.0.0.5: icmp_seq=10 ttl=64 time=605 ms
+1008 bytes from 10.0.0.5: icmp_seq=11 ttl=64 time=592 ms
+1008 bytes from 10.0.0.5: icmp_seq=6 ttl=64 time=660 ms
+1008 bytes from 10.0.0.5: icmp_seq=12 ttl=64 time=618 ms
+1008 bytes from 10.0.0.5: icmp_seq=13 ttl=64 time=626 ms
+1008 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=824 ms
+1008 bytes from 10.0.0.5: icmp_seq=16 ttl=64 time=629 ms
+1008 bytes from 10.0.0.5: icmp_seq=17 ttl=64 time=619 ms
+1008 bytes from 10.0.0.5: icmp_seq=21 ttl=64 time=693 ms
+1008 bytes from 10.0.0.5: icmp_seq=22 ttl=64 time=671 ms
+1008 bytes from 10.0.0.5: icmp_seq=18 ttl=64 time=742 ms
+1008 bytes from 10.0.0.5: icmp_seq=23 ttl=64 time=680 ms
+1008 bytes from 10.0.0.5: icmp_seq=8 ttl=64 time=893 ms
+1008 bytes from 10.0.0.5: icmp_seq=30 ttl=64 time=619 ms
+1008 bytes from 10.0.0.5: icmp_seq=34 ttl=64 time=579 ms
+1008 bytes from 10.0.0.5: icmp_seq=19 ttl=64 time=726 ms
+1008 bytes from 10.0.0.5: icmp_seq=20 ttl=64 time=745 ms
+1008 bytes from 10.0.0.5: icmp_seq=24 ttl=64 time=766 ms
+1008 bytes from 10.0.0.5: icmp_seq=25 ttl=64 time=758 ms
+1008 bytes from 10.0.0.5: icmp_seq=26 ttl=64 time=752 ms
+1008 bytes from 10.0.0.5: icmp_seq=28 ttl=64 time=729 ms
+1008 bytes from 10.0.0.5: icmp_seq=29 ttl=64 time=725 ms
+1008 bytes from 10.0.0.5: icmp_seq=31 ttl=64 time=697 ms
+1008 bytes from 10.0.0.5: icmp_seq=32 ttl=64 time=688 ms
+1008 bytes from 10.0.0.5: icmp_seq=33 ttl=64 time=679 ms
+1008 bytes from 10.0.0.5: icmp_seq=35 ttl=64 time=670 ms
+From 10.0.0.4 icmp_seq=162 Destination Host Unreachable
+From 10.0.0.4 icmp_seq=163 Destination Host Unreachable
+
+--- 10.0.0.5 ping statistics ---
+250 packets transmitted, 29 received, +2 errors, 88% packet loss, time 8614ms
+rtt min/avg/max/mdev = 579.935/687.433/893.559/70.677 ms, pipe 55
+path = [3, 4]
+duration=10430

@@ -1,0 +1,27 @@
+PING 10.0.0.1 (10.0.0.1) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=1409 ms
+1008 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=1390 ms
+1008 bytes from 10.0.0.1: icmp_seq=7 ttl=64 time=1337 ms
+1008 bytes from 10.0.0.1: icmp_seq=8 ttl=64 time=1363 ms
+1008 bytes from 10.0.0.1: icmp_seq=13 ttl=64 time=1397 ms
+1008 bytes from 10.0.0.1: icmp_seq=15 ttl=64 time=1436 ms
+1008 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=1465 ms
+1008 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=1697 ms
+1008 bytes from 10.0.0.1: icmp_seq=11 ttl=64 time=1735 ms
+1008 bytes from 10.0.0.1: icmp_seq=12 ttl=64 time=1735 ms
+1008 bytes from 10.0.0.1: icmp_seq=14 ttl=64 time=1712 ms
+1008 bytes from 10.0.0.1: icmp_seq=16 ttl=64 time=1853 ms
+1008 bytes from 10.0.0.1: icmp_seq=17 ttl=64 time=1844 ms
+1008 bytes from 10.0.0.1: icmp_seq=21 ttl=64 time=1811 ms
+1008 bytes from 10.0.0.1: icmp_seq=22 ttl=64 time=1846 ms
+1008 bytes from 10.0.0.1: icmp_seq=23 ttl=64 time=1831 ms
+1008 bytes from 10.0.0.1: icmp_seq=24 ttl=64 time=1843 ms
+1008 bytes from 10.0.0.1: icmp_seq=25 ttl=64 time=1840 ms
+From 10.0.0.3 icmp_seq=144 Destination Host Unreachable
+From 10.0.0.3 icmp_seq=145 Destination Host Unreachable
+
+--- 10.0.0.1 ping statistics ---
+250 packets transmitted, 18 received, +2 errors, 92% packet loss, time 12337ms
+rtt min/avg/max/mdev = 1337.994/1641.901/1853.839/199.808 ms, pipe 49
+path = [2, 0]
+duration=16048

@@ -1,0 +1,17 @@
+PING 10.0.0.13 (10.0.0.13) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.13: icmp_seq=224 ttl=64 time=985 ms
+1008 bytes from 10.0.0.13: icmp_seq=230 ttl=64 time=945 ms
+1008 bytes from 10.0.0.13: icmp_seq=231 ttl=64 time=931 ms
+1008 bytes from 10.0.0.13: icmp_seq=225 ttl=64 time=1039 ms
+1008 bytes from 10.0.0.13: icmp_seq=238 ttl=64 time=865 ms
+1008 bytes from 10.0.0.13: icmp_seq=226 ttl=64 time=1051 ms
+1008 bytes from 10.0.0.13: icmp_seq=229 ttl=64 time=978 ms
+1008 bytes from 10.0.0.13: icmp_seq=232 ttl=64 time=982 ms
+1008 bytes from 10.0.0.13: icmp_seq=236 ttl=64 time=982 ms
+1008 bytes from 10.0.0.13: icmp_seq=237 ttl=64 time=978 ms
+
+--- 10.0.0.13 ping statistics ---
+250 packets transmitted, 10 received, 96% packet loss, time 6032ms
+rtt min/avg/max/mdev = 865.289/974.014/1051.686/50.111 ms, pipe 21
+path = [5, 12]
+duration=8155

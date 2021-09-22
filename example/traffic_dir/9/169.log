@@ -1,0 +1,40 @@
+PING 10.0.0.9 (10.0.0.9) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.9: icmp_seq=207 ttl=64 time=33.7 ms
+1008 bytes from 10.0.0.9: icmp_seq=208 ttl=64 time=46.7 ms
+1008 bytes from 10.0.0.9: icmp_seq=209 ttl=64 time=64.7 ms
+1008 bytes from 10.0.0.9: icmp_seq=210 ttl=64 time=82.8 ms
+1008 bytes from 10.0.0.9: icmp_seq=211 ttl=64 time=106 ms
+1008 bytes from 10.0.0.9: icmp_seq=212 ttl=64 time=117 ms
+1008 bytes from 10.0.0.9: icmp_seq=213 ttl=64 time=136 ms
+1008 bytes from 10.0.0.9: icmp_seq=214 ttl=64 time=147 ms
+1008 bytes from 10.0.0.9: icmp_seq=215 ttl=64 time=164 ms
+1008 bytes from 10.0.0.9: icmp_seq=216 ttl=64 time=186 ms
+1008 bytes from 10.0.0.9: icmp_seq=217 ttl=64 time=215 ms
+1008 bytes from 10.0.0.9: icmp_seq=218 ttl=64 time=235 ms
+1008 bytes from 10.0.0.9: icmp_seq=219 ttl=64 time=253 ms
+1008 bytes from 10.0.0.9: icmp_seq=220 ttl=64 time=267 ms
+1008 bytes from 10.0.0.9: icmp_seq=221 ttl=64 time=309 ms
+1008 bytes from 10.0.0.9: icmp_seq=222 ttl=64 time=357 ms
+1008 bytes from 10.0.0.9: icmp_seq=223 ttl=64 time=373 ms
+1008 bytes from 10.0.0.9: icmp_seq=224 ttl=64 time=438 ms
+1008 bytes from 10.0.0.9: icmp_seq=225 ttl=64 time=458 ms
+1008 bytes from 10.0.0.9: icmp_seq=226 ttl=64 time=513 ms
+1008 bytes from 10.0.0.9: icmp_seq=228 ttl=64 time=604 ms
+1008 bytes from 10.0.0.9: icmp_seq=229 ttl=64 time=638 ms
+1008 bytes from 10.0.0.9: icmp_seq=227 ttl=64 time=533 ms
+1008 bytes from 10.0.0.9: icmp_seq=231 ttl=64 time=727 ms
+1008 bytes from 10.0.0.9: icmp_seq=230 ttl=64 time=767 ms
+1008 bytes from 10.0.0.9: icmp_seq=232 ttl=64 time=865 ms
+1008 bytes from 10.0.0.9: icmp_seq=233 ttl=64 time=865 ms
+1008 bytes from 10.0.0.9: icmp_seq=234 ttl=64 time=885 ms
+1008 bytes from 10.0.0.9: icmp_seq=236 ttl=64 time=886 ms
+1008 bytes from 10.0.0.9: icmp_seq=237 ttl=64 time=981 ms
+1008 bytes from 10.0.0.9: icmp_seq=235 ttl=64 time=1005 ms
+1008 bytes from 10.0.0.9: icmp_seq=239 ttl=64 time=990 ms
+1008 bytes from 10.0.0.9: icmp_seq=240 ttl=64 time=983 ms
+
+--- 10.0.0.9 ping statistics ---
+250 packets transmitted, 33 received, 86% packet loss, time 4189ms
+rtt min/avg/max/mdev = 33.720/462.002/1005.961/327.225 ms, pipe 26
+path = [3, 8, 9, 10]
+duration=5068

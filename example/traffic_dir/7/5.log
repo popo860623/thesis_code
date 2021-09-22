@@ -1,0 +1,39 @@
+PING 10.0.0.11 (10.0.0.11) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.11: icmp_seq=2 ttl=64 time=1407 ms
+1008 bytes from 10.0.0.11: icmp_seq=3 ttl=64 time=1432 ms
+1008 bytes from 10.0.0.11: icmp_seq=4 ttl=64 time=1480 ms
+1008 bytes from 10.0.0.11: icmp_seq=5 ttl=64 time=1497 ms
+1008 bytes from 10.0.0.11: icmp_seq=1 ttl=64 time=1593 ms
+1008 bytes from 10.0.0.11: icmp_seq=7 ttl=64 time=1556 ms
+1008 bytes from 10.0.0.11: icmp_seq=8 ttl=64 time=1597 ms
+1008 bytes from 10.0.0.11: icmp_seq=9 ttl=64 time=1632 ms
+1008 bytes from 10.0.0.11: icmp_seq=11 ttl=64 time=1663 ms
+1008 bytes from 10.0.0.11: icmp_seq=12 ttl=64 time=1675 ms
+1008 bytes from 10.0.0.11: icmp_seq=13 ttl=64 time=1689 ms
+1008 bytes from 10.0.0.11: icmp_seq=14 ttl=64 time=1755 ms
+1008 bytes from 10.0.0.11: icmp_seq=10 ttl=64 time=1948 ms
+1008 bytes from 10.0.0.11: icmp_seq=16 ttl=64 time=1876 ms
+1008 bytes from 10.0.0.11: icmp_seq=18 ttl=64 time=1892 ms
+1008 bytes from 10.0.0.11: icmp_seq=19 ttl=64 time=1958 ms
+1008 bytes from 10.0.0.11: icmp_seq=15 ttl=64 time=1956 ms
+1008 bytes from 10.0.0.11: icmp_seq=20 ttl=64 time=1956 ms
+1008 bytes from 10.0.0.11: icmp_seq=24 ttl=64 time=2049 ms
+1008 bytes from 10.0.0.11: icmp_seq=25 ttl=64 time=2166 ms
+1008 bytes from 10.0.0.11: icmp_seq=27 ttl=64 time=2198 ms
+1008 bytes from 10.0.0.11: icmp_seq=17 ttl=64 time=2384 ms
+1008 bytes from 10.0.0.11: icmp_seq=28 ttl=64 time=2233 ms
+1008 bytes from 10.0.0.11: icmp_seq=31 ttl=64 time=2269 ms
+1008 bytes from 10.0.0.11: icmp_seq=32 ttl=64 time=2370 ms
+1008 bytes from 10.0.0.11: icmp_seq=34 ttl=64 time=2433 ms
+1008 bytes from 10.0.0.11: icmp_seq=35 ttl=64 time=2488 ms
+1008 bytes from 10.0.0.11: icmp_seq=36 ttl=64 time=2488 ms
+1008 bytes from 10.0.0.11: icmp_seq=38 ttl=64 time=2482 ms
+1008 bytes from 10.0.0.11: icmp_seq=39 ttl=64 time=2502 ms
+1008 bytes from 10.0.0.11: icmp_seq=40 ttl=64 time=2727 ms
+1008 bytes from 10.0.0.11: icmp_seq=42 ttl=64 time=2920 ms
+
+--- 10.0.0.11 ping statistics ---
+250 packets transmitted, 32 received, 87% packet loss, time 5051ms
+rtt min/avg/max/mdev = 1407.953/2008.996/2920.891/405.860 ms, pipe 151
+path = [11, 10]
+duration=10928

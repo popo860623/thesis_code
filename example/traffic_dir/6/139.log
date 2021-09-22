@@ -1,0 +1,39 @@
+PING 10.0.0.1 (10.0.0.1) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=1323 ms
+1008 bytes from 10.0.0.1: icmp_seq=5 ttl=64 time=1395 ms
+1008 bytes from 10.0.0.1: icmp_seq=6 ttl=64 time=1336 ms
+1008 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=1649 ms
+1008 bytes from 10.0.0.1: icmp_seq=14 ttl=64 time=1389 ms
+1008 bytes from 10.0.0.1: icmp_seq=11 ttl=64 time=1413 ms
+1008 bytes from 10.0.0.1: icmp_seq=20 ttl=64 time=1401 ms
+1008 bytes from 10.0.0.1: icmp_seq=13 ttl=64 time=1406 ms
+1008 bytes from 10.0.0.1: icmp_seq=18 ttl=64 time=1472 ms
+1008 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=1723 ms
+1008 bytes from 10.0.0.1: icmp_seq=29 ttl=64 time=1321 ms
+1008 bytes from 10.0.0.1: icmp_seq=17 ttl=64 time=1497 ms
+1008 bytes from 10.0.0.1: icmp_seq=9 ttl=64 time=1660 ms
+1008 bytes from 10.0.0.1: icmp_seq=30 ttl=64 time=1328 ms
+1008 bytes from 10.0.0.1: icmp_seq=10 ttl=64 time=1638 ms
+1008 bytes from 10.0.0.1: icmp_seq=32 ttl=64 time=1382 ms
+1008 bytes from 10.0.0.1: icmp_seq=34 ttl=64 time=1430 ms
+1008 bytes from 10.0.0.1: icmp_seq=21 ttl=64 time=1464 ms
+1008 bytes from 10.0.0.1: icmp_seq=26 ttl=64 time=1419 ms
+1008 bytes from 10.0.0.1: icmp_seq=19 ttl=64 time=1587 ms
+1008 bytes from 10.0.0.1: icmp_seq=27 ttl=64 time=1647 ms
+1008 bytes from 10.0.0.1: icmp_seq=31 ttl=64 time=1730 ms
+1008 bytes from 10.0.0.1: icmp_seq=33 ttl=64 time=1710 ms
+1008 bytes from 10.0.0.1: icmp_seq=35 ttl=64 time=1790 ms
+1008 bytes from 10.0.0.1: icmp_seq=36 ttl=64 time=1839 ms
+1008 bytes from 10.0.0.1: icmp_seq=40 ttl=64 time=1807 ms
+1008 bytes from 10.0.0.1: icmp_seq=41 ttl=64 time=1841 ms
+1008 bytes from 10.0.0.1: icmp_seq=42 ttl=64 time=1830 ms
+1008 bytes from 10.0.0.1: icmp_seq=43 ttl=64 time=1830 ms
+1008 bytes from 10.0.0.1: icmp_seq=44 ttl=64 time=1828 ms
+From 10.0.0.3 icmp_seq=164 Destination Host Unreachable
+From 10.0.0.3 icmp_seq=165 Destination Host Unreachable
+
+--- 10.0.0.1 ping statistics ---
+250 packets transmitted, 30 received, +2 errors, 88% packet loss, time 11943ms
+rtt min/avg/max/mdev = 1321.833/1570.061/1841.842/185.289 ms, pipe 62
+path = [2, 0, 3]
+duration=15635

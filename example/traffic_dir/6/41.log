@@ -1,0 +1,14 @@
+PING 10.0.0.1 (10.0.0.1) 1000(1028) bytes of data.
+From 10.0.0.2 icmp_seq=65 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=66 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=67 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=68 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=69 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=70 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=73 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=74 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=244 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=245 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=246 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=248 Destination Host Unreachable
+From 10.0.0.2 icmp_seq=249 Destination Host Unreachable

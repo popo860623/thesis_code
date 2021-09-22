@@ -1,0 +1,33 @@
+PING 10.0.0.5 (10.0.0.5) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.5: icmp_seq=1 ttl=64 time=2396 ms
+1008 bytes from 10.0.0.5: icmp_seq=2 ttl=64 time=2387 ms
+1008 bytes from 10.0.0.5: icmp_seq=3 ttl=64 time=2420 ms
+1008 bytes from 10.0.0.5: icmp_seq=4 ttl=64 time=2545 ms
+1008 bytes from 10.0.0.5: icmp_seq=15 ttl=64 time=2568 ms
+1008 bytes from 10.0.0.5: icmp_seq=41 ttl=64 time=2646 ms
+1008 bytes from 10.0.0.5: icmp_seq=43 ttl=64 time=2676 ms
+1008 bytes from 10.0.0.5: icmp_seq=38 ttl=64 time=2934 ms
+1008 bytes from 10.0.0.5: icmp_seq=57 ttl=64 time=3179 ms
+1008 bytes from 10.0.0.5: icmp_seq=71 ttl=64 time=3169 ms
+1008 bytes from 10.0.0.5: icmp_seq=73 ttl=64 time=3155 ms
+1008 bytes from 10.0.0.5: icmp_seq=77 ttl=64 time=3146 ms
+1008 bytes from 10.0.0.5: icmp_seq=79 ttl=64 time=3149 ms
+1008 bytes from 10.0.0.5: icmp_seq=85 ttl=64 time=3115 ms
+1008 bytes from 10.0.0.5: icmp_seq=86 ttl=64 time=3117 ms
+1008 bytes from 10.0.0.5: icmp_seq=96 ttl=64 time=3111 ms
+1008 bytes from 10.0.0.5: icmp_seq=100 ttl=64 time=3065 ms
+1008 bytes from 10.0.0.5: icmp_seq=101 ttl=64 time=3043 ms
+1008 bytes from 10.0.0.5: icmp_seq=102 ttl=64 time=3008 ms
+1008 bytes from 10.0.0.5: icmp_seq=107 ttl=64 time=2931 ms
+1008 bytes from 10.0.0.5: icmp_seq=110 ttl=64 time=2894 ms
+1008 bytes from 10.0.0.5: icmp_seq=111 ttl=64 time=2894 ms
+1008 bytes from 10.0.0.5: icmp_seq=113 ttl=64 time=2904 ms
+1008 bytes from 10.0.0.5: icmp_seq=114 ttl=64 time=2900 ms
+1008 bytes from 10.0.0.5: icmp_seq=122 ttl=64 time=2818 ms
+From 10.0.0.7 icmp_seq=239 Destination Host Unreachable
+
+--- 10.0.0.5 ping statistics ---
+250 packets transmitted, 25 received, +1 errors, 90% packet loss, time 5739ms
+rtt min/avg/max/mdev = 2387.010/2887.161/3179.990/255.990 ms, pipe 128
+path = [6, 4, 3, 8]
+duration=12117

@@ -1,0 +1,5 @@
+PING 10.0.0.12 (10.0.0.12) 1000(1028) bytes of data.
+
+--- 10.0.0.12 ping statistics ---
+250 packets transmitted, 0 received, 100% packet loss, time 4082ms
+

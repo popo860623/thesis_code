@@ -1,0 +1,8 @@
+PING 10.0.0.11 (10.0.0.11) 1000(1028) bytes of data.
+From 10.0.0.14 icmp_seq=134 Destination Host Unreachable
+From 10.0.0.14 icmp_seq=135 Destination Host Unreachable
+From 10.0.0.14 icmp_seq=209 Destination Host Unreachable
+
+--- 10.0.0.11 ping statistics ---
+250 packets transmitted, 0 received, +3 errors, 100% packet loss, time 11412ms
+pipe 4

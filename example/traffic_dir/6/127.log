@@ -1,0 +1,72 @@
+PING 10.0.0.6 (10.0.0.6) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.6: icmp_seq=29 ttl=64 time=2626 ms
+1008 bytes from 10.0.0.6: icmp_seq=32 ttl=64 time=2588 ms
+1008 bytes from 10.0.0.6: icmp_seq=33 ttl=64 time=2561 ms
+1008 bytes from 10.0.0.6: icmp_seq=38 ttl=64 time=2493 ms
+1008 bytes from 10.0.0.6: icmp_seq=40 ttl=64 time=2463 ms
+1008 bytes from 10.0.0.6: icmp_seq=41 ttl=64 time=2516 ms
+1008 bytes from 10.0.0.6: icmp_seq=42 ttl=64 time=2531 ms
+1008 bytes from 10.0.0.6: icmp_seq=46 ttl=64 time=2639 ms
+1008 bytes from 10.0.0.6: icmp_seq=60 ttl=64 time=2483 ms
+1008 bytes from 10.0.0.6: icmp_seq=68 ttl=64 time=2499 ms
+1008 bytes from 10.0.0.6: icmp_seq=69 ttl=64 time=2505 ms
+1008 bytes from 10.0.0.6: icmp_seq=28 ttl=64 time=3364 ms
+1008 bytes from 10.0.0.6: icmp_seq=72 ttl=64 time=2543 ms
+1008 bytes from 10.0.0.6: icmp_seq=87 ttl=64 time=2459 ms
+1008 bytes from 10.0.0.6: icmp_seq=89 ttl=64 time=2591 ms
+1008 bytes from 10.0.0.6: icmp_seq=91 ttl=64 time=2716 ms
+1008 bytes from 10.0.0.6: icmp_seq=94 ttl=64 time=2730 ms
+1008 bytes from 10.0.0.6: icmp_seq=96 ttl=64 time=2701 ms
+1008 bytes from 10.0.0.6: icmp_seq=97 ttl=64 time=2665 ms
+1008 bytes from 10.0.0.6: icmp_seq=100 ttl=64 time=2628 ms
+1008 bytes from 10.0.0.6: icmp_seq=102 ttl=64 time=2645 ms
+1008 bytes from 10.0.0.6: icmp_seq=107 ttl=64 time=2555 ms
+1008 bytes from 10.0.0.6: icmp_seq=109 ttl=64 time=2531 ms
+1008 bytes from 10.0.0.6: icmp_seq=112 ttl=64 time=2509 ms
+1008 bytes from 10.0.0.6: icmp_seq=120 ttl=64 time=2378 ms
+1008 bytes from 10.0.0.6: icmp_seq=121 ttl=64 time=2371 ms
+1008 bytes from 10.0.0.6: icmp_seq=122 ttl=64 time=2364 ms
+1008 bytes from 10.0.0.6: icmp_seq=123 ttl=64 time=2361 ms
+1008 bytes from 10.0.0.6: icmp_seq=125 ttl=64 time=2358 ms
+1008 bytes from 10.0.0.6: icmp_seq=126 ttl=64 time=2370 ms
+1008 bytes from 10.0.0.6: icmp_seq=136 ttl=64 time=2263 ms
+1008 bytes from 10.0.0.6: icmp_seq=139 ttl=64 time=2244 ms
+1008 bytes from 10.0.0.6: icmp_seq=143 ttl=64 time=2228 ms
+1008 bytes from 10.0.0.6: icmp_seq=144 ttl=64 time=2217 ms
+1008 bytes from 10.0.0.6: icmp_seq=145 ttl=64 time=2213 ms
+1008 bytes from 10.0.0.6: icmp_seq=146 ttl=64 time=2206 ms
+1008 bytes from 10.0.0.6: icmp_seq=150 ttl=64 time=2192 ms
+1008 bytes from 10.0.0.6: icmp_seq=154 ttl=64 time=2171 ms
+1008 bytes from 10.0.0.6: icmp_seq=155 ttl=64 time=2175 ms
+1008 bytes from 10.0.0.6: icmp_seq=159 ttl=64 time=2166 ms
+1008 bytes from 10.0.0.6: icmp_seq=163 ttl=64 time=2229 ms
+1008 bytes from 10.0.0.6: icmp_seq=164 ttl=64 time=2220 ms
+1008 bytes from 10.0.0.6: icmp_seq=165 ttl=64 time=2231 ms
+1008 bytes from 10.0.0.6: icmp_seq=166 ttl=64 time=2240 ms
+1008 bytes from 10.0.0.6: icmp_seq=167 ttl=64 time=2250 ms
+1008 bytes from 10.0.0.6: icmp_seq=172 ttl=64 time=2245 ms
+1008 bytes from 10.0.0.6: icmp_seq=173 ttl=64 time=2247 ms
+1008 bytes from 10.0.0.6: icmp_seq=174 ttl=64 time=2101 ms
+1008 bytes from 10.0.0.6: icmp_seq=177 ttl=64 time=2106 ms
+1008 bytes from 10.0.0.6: icmp_seq=179 ttl=64 time=2104 ms
+1008 bytes from 10.0.0.6: icmp_seq=184 ttl=64 time=2088 ms
+1008 bytes from 10.0.0.6: icmp_seq=188 ttl=64 time=2070 ms
+1008 bytes from 10.0.0.6: icmp_seq=194 ttl=64 time=2032 ms
+1008 bytes from 10.0.0.6: icmp_seq=200 ttl=64 time=1978 ms
+1008 bytes from 10.0.0.6: icmp_seq=204 ttl=64 time=1926 ms
+1008 bytes from 10.0.0.6: icmp_seq=208 ttl=64 time=1910 ms
+1008 bytes from 10.0.0.6: icmp_seq=227 ttl=64 time=1712 ms
+1008 bytes from 10.0.0.6: icmp_seq=234 ttl=64 time=1660 ms
+1008 bytes from 10.0.0.6: icmp_seq=238 ttl=64 time=1668 ms
+1008 bytes from 10.0.0.6: icmp_seq=241 ttl=64 time=1653 ms
+1008 bytes from 10.0.0.6: icmp_seq=243 ttl=64 time=1646 ms
+1008 bytes from 10.0.0.6: icmp_seq=244 ttl=64 time=1641 ms
+1008 bytes from 10.0.0.6: icmp_seq=245 ttl=64 time=1644 ms
+1008 bytes from 10.0.0.6: icmp_seq=247 ttl=64 time=1627 ms
+1008 bytes from 10.0.0.6: icmp_seq=250 ttl=64 time=1607 ms
+
+--- 10.0.0.6 ping statistics ---
+250 packets transmitted, 65 received, 74% packet loss, time 5048ms
+rtt min/avg/max/mdev = 1607.400/2272.080/3364.457/341.258 ms, pipe 159
+path = [2, 5, 4]
+duration=11787

@@ -1,0 +1,73 @@
+PING 10.0.0.14 (10.0.0.14) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.14: icmp_seq=185 ttl=64 time=89.5 ms
+1008 bytes from 10.0.0.14: icmp_seq=186 ttl=64 time=80.5 ms
+1008 bytes from 10.0.0.14: icmp_seq=187 ttl=64 time=103 ms
+1008 bytes from 10.0.0.14: icmp_seq=188 ttl=64 time=105 ms
+1008 bytes from 10.0.0.14: icmp_seq=189 ttl=64 time=111 ms
+1008 bytes from 10.0.0.14: icmp_seq=190 ttl=64 time=125 ms
+1008 bytes from 10.0.0.14: icmp_seq=191 ttl=64 time=133 ms
+1008 bytes from 10.0.0.14: icmp_seq=192 ttl=64 time=139 ms
+1008 bytes from 10.0.0.14: icmp_seq=193 ttl=64 time=149 ms
+1008 bytes from 10.0.0.14: icmp_seq=194 ttl=64 time=158 ms
+1008 bytes from 10.0.0.14: icmp_seq=195 ttl=64 time=170 ms
+1008 bytes from 10.0.0.14: icmp_seq=196 ttl=64 time=169 ms
+1008 bytes from 10.0.0.14: icmp_seq=197 ttl=64 time=175 ms
+1008 bytes from 10.0.0.14: icmp_seq=198 ttl=64 time=186 ms
+1008 bytes from 10.0.0.14: icmp_seq=199 ttl=64 time=181 ms
+1008 bytes from 10.0.0.14: icmp_seq=200 ttl=64 time=186 ms
+1008 bytes from 10.0.0.14: icmp_seq=201 ttl=64 time=211 ms
+1008 bytes from 10.0.0.14: icmp_seq=202 ttl=64 time=233 ms
+1008 bytes from 10.0.0.14: icmp_seq=203 ttl=64 time=242 ms
+1008 bytes from 10.0.0.14: icmp_seq=204 ttl=64 time=245 ms
+1008 bytes from 10.0.0.14: icmp_seq=205 ttl=64 time=252 ms
+1008 bytes from 10.0.0.14: icmp_seq=206 ttl=64 time=261 ms
+1008 bytes from 10.0.0.14: icmp_seq=207 ttl=64 time=266 ms
+1008 bytes from 10.0.0.14: icmp_seq=208 ttl=64 time=272 ms
+1008 bytes from 10.0.0.14: icmp_seq=209 ttl=64 time=283 ms
+1008 bytes from 10.0.0.14: icmp_seq=210 ttl=64 time=286 ms
+1008 bytes from 10.0.0.14: icmp_seq=211 ttl=64 time=282 ms
+1008 bytes from 10.0.0.14: icmp_seq=212 ttl=64 time=288 ms
+1008 bytes from 10.0.0.14: icmp_seq=213 ttl=64 time=266 ms
+1008 bytes from 10.0.0.14: icmp_seq=214 ttl=64 time=265 ms
+1008 bytes from 10.0.0.14: icmp_seq=215 ttl=64 time=268 ms
+1008 bytes from 10.0.0.14: icmp_seq=216 ttl=64 time=272 ms
+1008 bytes from 10.0.0.14: icmp_seq=217 ttl=64 time=275 ms
+1008 bytes from 10.0.0.14: icmp_seq=218 ttl=64 time=278 ms
+1008 bytes from 10.0.0.14: icmp_seq=219 ttl=64 time=281 ms
+1008 bytes from 10.0.0.14: icmp_seq=220 ttl=64 time=284 ms
+1008 bytes from 10.0.0.14: icmp_seq=221 ttl=64 time=286 ms
+1008 bytes from 10.0.0.14: icmp_seq=222 ttl=64 time=288 ms
+1008 bytes from 10.0.0.14: icmp_seq=223 ttl=64 time=292 ms
+1008 bytes from 10.0.0.14: icmp_seq=224 ttl=64 time=295 ms
+1008 bytes from 10.0.0.14: icmp_seq=225 ttl=64 time=294 ms
+1008 bytes from 10.0.0.14: icmp_seq=226 ttl=64 time=298 ms
+1008 bytes from 10.0.0.14: icmp_seq=227 ttl=64 time=300 ms
+1008 bytes from 10.0.0.14: icmp_seq=228 ttl=64 time=302 ms
+1008 bytes from 10.0.0.14: icmp_seq=229 ttl=64 time=304 ms
+1008 bytes from 10.0.0.14: icmp_seq=230 ttl=64 time=306 ms
+1008 bytes from 10.0.0.14: icmp_seq=231 ttl=64 time=309 ms
+1008 bytes from 10.0.0.14: icmp_seq=232 ttl=64 time=310 ms
+1008 bytes from 10.0.0.14: icmp_seq=233 ttl=64 time=314 ms
+1008 bytes from 10.0.0.14: icmp_seq=234 ttl=64 time=317 ms
+1008 bytes from 10.0.0.14: icmp_seq=235 ttl=64 time=320 ms
+1008 bytes from 10.0.0.14: icmp_seq=236 ttl=64 time=320 ms
+1008 bytes from 10.0.0.14: icmp_seq=237 ttl=64 time=321 ms
+1008 bytes from 10.0.0.14: icmp_seq=238 ttl=64 time=323 ms
+1008 bytes from 10.0.0.14: icmp_seq=239 ttl=64 time=326 ms
+1008 bytes from 10.0.0.14: icmp_seq=240 ttl=64 time=330 ms
+1008 bytes from 10.0.0.14: icmp_seq=241 ttl=64 time=331 ms
+1008 bytes from 10.0.0.14: icmp_seq=242 ttl=64 time=332 ms
+1008 bytes from 10.0.0.14: icmp_seq=243 ttl=64 time=335 ms
+1008 bytes from 10.0.0.14: icmp_seq=244 ttl=64 time=339 ms
+1008 bytes from 10.0.0.14: icmp_seq=245 ttl=64 time=347 ms
+1008 bytes from 10.0.0.14: icmp_seq=246 ttl=64 time=341 ms
+1008 bytes from 10.0.0.14: icmp_seq=247 ttl=64 time=345 ms
+1008 bytes from 10.0.0.14: icmp_seq=248 ttl=64 time=346 ms
+1008 bytes from 10.0.0.14: icmp_seq=249 ttl=64 time=349 ms
+1008 bytes from 10.0.0.14: icmp_seq=250 ttl=64 time=348 ms
+
+--- 10.0.0.14 ping statistics ---
+250 packets transmitted, 66 received, 73% packet loss, time 4536ms
+rtt min/avg/max/mdev = 80.511/260.127/349.571/74.699 ms, pipe 20
+path = [10, 13, 5]
+duration=5152

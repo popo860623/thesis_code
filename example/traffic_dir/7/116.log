@@ -1,0 +1,25 @@
+PING 10.0.0.8 (10.0.0.8) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.8: icmp_seq=1 ttl=64 time=3523 ms
+1008 bytes from 10.0.0.8: icmp_seq=2 ttl=64 time=3516 ms
+1008 bytes from 10.0.0.8: icmp_seq=5 ttl=64 time=3510 ms
+1008 bytes from 10.0.0.8: icmp_seq=8 ttl=64 time=3540 ms
+1008 bytes from 10.0.0.8: icmp_seq=10 ttl=64 time=3528 ms
+1008 bytes from 10.0.0.8: icmp_seq=7 ttl=64 time=4364 ms
+1008 bytes from 10.0.0.8: icmp_seq=35 ttl=64 time=4168 ms
+1008 bytes from 10.0.0.8: icmp_seq=36 ttl=64 time=4158 ms
+1008 bytes from 10.0.0.8: icmp_seq=39 ttl=64 time=4153 ms
+1008 bytes from 10.0.0.8: icmp_seq=40 ttl=64 time=4155 ms
+1008 bytes from 10.0.0.8: icmp_seq=21 ttl=64 time=4506 ms
+1008 bytes from 10.0.0.8: icmp_seq=22 ttl=64 time=4494 ms
+1008 bytes from 10.0.0.8: icmp_seq=44 ttl=64 time=4199 ms
+1008 bytes from 10.0.0.8: icmp_seq=29 ttl=64 time=4455 ms
+1008 bytes from 10.0.0.8: icmp_seq=30 ttl=64 time=4487 ms
+1008 bytes from 10.0.0.8: icmp_seq=31 ttl=64 time=4475 ms
+1008 bytes from 10.0.0.8: icmp_seq=32 ttl=64 time=4482 ms
+1008 bytes from 10.0.0.8: icmp_seq=52 ttl=64 time=4178 ms
+
+--- 10.0.0.8 ping statistics ---
+250 packets transmitted, 18 received, 92% packet loss, time 4356ms
+rtt min/avg/max/mdev = 3510.378/4105.637/4506.419/383.274 ms, pipe 244
+path = [1, 7, 6]
+duration=11545

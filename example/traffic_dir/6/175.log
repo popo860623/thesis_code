@@ -1,0 +1,71 @@
+PING 10.0.0.6 (10.0.0.6) 1000(1028) bytes of data.
+1008 bytes from 10.0.0.6: icmp_seq=19 ttl=64 time=2989 ms
+1008 bytes from 10.0.0.6: icmp_seq=27 ttl=64 time=2861 ms
+1008 bytes from 10.0.0.6: icmp_seq=29 ttl=64 time=2844 ms
+1008 bytes from 10.0.0.6: icmp_seq=39 ttl=64 time=2706 ms
+1008 bytes from 10.0.0.6: icmp_seq=1 ttl=64 time=3504 ms
+1008 bytes from 10.0.0.6: icmp_seq=44 ttl=64 time=2627 ms
+1008 bytes from 10.0.0.6: icmp_seq=45 ttl=64 time=2615 ms
+1008 bytes from 10.0.0.6: icmp_seq=48 ttl=64 time=2563 ms
+1008 bytes from 10.0.0.6: icmp_seq=54 ttl=64 time=2495 ms
+1008 bytes from 10.0.0.6: icmp_seq=56 ttl=64 time=2514 ms
+1008 bytes from 10.0.0.6: icmp_seq=58 ttl=64 time=2531 ms
+1008 bytes from 10.0.0.6: icmp_seq=59 ttl=64 time=2543 ms
+1008 bytes from 10.0.0.6: icmp_seq=60 ttl=64 time=2648 ms
+1008 bytes from 10.0.0.6: icmp_seq=61 ttl=64 time=2629 ms
+1008 bytes from 10.0.0.6: icmp_seq=10 ttl=64 time=3811 ms
+1008 bytes from 10.0.0.6: icmp_seq=13 ttl=64 time=3859 ms
+1008 bytes from 10.0.0.6: icmp_seq=34 ttl=64 time=3519 ms
+1008 bytes from 10.0.0.6: icmp_seq=84 ttl=64 time=2505 ms
+1008 bytes from 10.0.0.6: icmp_seq=86 ttl=64 time=2533 ms
+1008 bytes from 10.0.0.6: icmp_seq=87 ttl=64 time=2541 ms
+1008 bytes from 10.0.0.6: icmp_seq=91 ttl=64 time=2471 ms
+1008 bytes from 10.0.0.6: icmp_seq=97 ttl=64 time=2460 ms
+1008 bytes from 10.0.0.6: icmp_seq=98 ttl=64 time=2458 ms
+1008 bytes from 10.0.0.6: icmp_seq=99 ttl=64 time=2448 ms
+1008 bytes from 10.0.0.6: icmp_seq=100 ttl=64 time=2432 ms
+1008 bytes from 10.0.0.6: icmp_seq=101 ttl=64 time=2437 ms
+1008 bytes from 10.0.0.6: icmp_seq=102 ttl=64 time=2458 ms
+1008 bytes from 10.0.0.6: icmp_seq=104 ttl=64 time=2589 ms
+1008 bytes from 10.0.0.6: icmp_seq=105 ttl=64 time=2719 ms
+1008 bytes from 10.0.0.6: icmp_seq=106 ttl=64 time=2714 ms
+1008 bytes from 10.0.0.6: icmp_seq=111 ttl=64 time=2702 ms
+1008 bytes from 10.0.0.6: icmp_seq=112 ttl=64 time=2660 ms
+1008 bytes from 10.0.0.6: icmp_seq=115 ttl=64 time=2631 ms
+1008 bytes from 10.0.0.6: icmp_seq=117 ttl=64 time=2636 ms
+1008 bytes from 10.0.0.6: icmp_seq=123 ttl=64 time=2538 ms
+1008 bytes from 10.0.0.6: icmp_seq=128 ttl=64 time=2493 ms
+1008 bytes from 10.0.0.6: icmp_seq=164 ttl=64 time=2196 ms
+1008 bytes from 10.0.0.6: icmp_seq=170 ttl=64 time=2178 ms
+1008 bytes from 10.0.0.6: icmp_seq=172 ttl=64 time=2168 ms
+1008 bytes from 10.0.0.6: icmp_seq=174 ttl=64 time=2168 ms
+1008 bytes from 10.0.0.6: icmp_seq=175 ttl=64 time=2178 ms
+1008 bytes from 10.0.0.6: icmp_seq=177 ttl=64 time=2228 ms
+1008 bytes from 10.0.0.6: icmp_seq=178 ttl=64 time=2225 ms
+1008 bytes from 10.0.0.6: icmp_seq=179 ttl=64 time=2236 ms
+1008 bytes from 10.0.0.6: icmp_seq=180 ttl=64 time=2243 ms
+1008 bytes from 10.0.0.6: icmp_seq=186 ttl=64 time=2239 ms
+1008 bytes from 10.0.0.6: icmp_seq=187 ttl=64 time=2245 ms
+1008 bytes from 10.0.0.6: icmp_seq=188 ttl=64 time=2247 ms
+1008 bytes from 10.0.0.6: icmp_seq=189 ttl=64 time=2113 ms
+1008 bytes from 10.0.0.6: icmp_seq=190 ttl=64 time=2108 ms
+1008 bytes from 10.0.0.6: icmp_seq=193 ttl=64 time=2104 ms
+1008 bytes from 10.0.0.6: icmp_seq=194 ttl=64 time=2103 ms
+1008 bytes from 10.0.0.6: icmp_seq=197 ttl=64 time=2096 ms
+1008 bytes from 10.0.0.6: icmp_seq=199 ttl=64 time=2084 ms
+1008 bytes from 10.0.0.6: icmp_seq=201 ttl=64 time=2070 ms
+1008 bytes from 10.0.0.6: icmp_seq=203 ttl=64 time=2057 ms
+1008 bytes from 10.0.0.6: icmp_seq=205 ttl=64 time=2041 ms
+1008 bytes from 10.0.0.6: icmp_seq=208 ttl=64 time=2025 ms
+1008 bytes from 10.0.0.6: icmp_seq=214 ttl=64 time=1969 ms
+1008 bytes from 10.0.0.6: icmp_seq=219 ttl=64 time=1928 ms
+1008 bytes from 10.0.0.6: icmp_seq=222 ttl=64 time=1910 ms
+1008 bytes from 10.0.0.6: icmp_seq=225 ttl=64 time=1898 ms
+1008 bytes from 10.0.0.6: icmp_seq=234 ttl=64 time=1776 ms
+1008 bytes from 10.0.0.6: icmp_seq=250 ttl=64 time=1655 ms
+
+--- 10.0.0.6 ping statistics ---
+250 packets transmitted, 64 received, 74% packet loss, time 5128ms
+rtt min/avg/max/mdev = 1655.571/2440.650/3859.244/424.765 ms, pipe 181
+path = [2, 5, 12, 11]
+duration=12913
