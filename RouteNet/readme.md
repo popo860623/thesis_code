@@ -2,7 +2,7 @@
 :::success
 RouteNet訓練步驟說明
 :::
-1. 訓練模型前需要先準備資料集，分別是**Training set & Validation set**
+1. 訓練模型前需要先準備資料集，分別是**Training set & Validation set** ([參考] (https://github.com/popo860623/thesis_code/tree/main/Topology%20and%20data_generation))
 2. 啟動訓練的檔案為 **run_routenet.sh**
 
 ### run_routenet.sh
