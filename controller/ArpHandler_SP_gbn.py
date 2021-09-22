@@ -28,9 +28,9 @@ import os
 import csv
 import time
 import statistics
-# graph_path = '/home/hao/backup_thesis/gbnnet/gbn.txt'
-graph_path = '/home/hao/backup_thesis/gbnnet/gbn_add_link_57.txt'
-# graph_path = '/home/hao/backup_thesis/gbnnet/gbn_del_node_16.txt'
+graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/gbnnet/gbn.txt'
+# graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/gbnnet/gbn_add_link_57.txt'
+# graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/gbnnet/gbn_del_node_16.txt'
 class ArpHandler(app_manager.RyuApp):
     OFP_VERSIONS = [ofproto_v1_3.OFP_VERSION]
     

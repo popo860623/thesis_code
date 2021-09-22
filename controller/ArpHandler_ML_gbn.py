@@ -1,5 +1,4 @@
-# author: ParanoiaUPC
-# email: 757459307@qq.com
+
 import statistics
 import time
 import routenet_with_link_cap2 as rout
@@ -31,7 +30,7 @@ sys.path.append('/home/hao/.local/lib/python3.6/site-packages')
 sys.path.append('/usr/lib/python3.6')
 
 graphPredict = tf.Graph()
-graph_path = '/home/hao/backup_thesis/gbnnet/gbn.txt'
+graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/gbnnet/gbn.txt'
 G = nx.Graph()
 G = nx.read_gml(graph_path, destringizer=int)
 
@@ -377,7 +376,7 @@ class ArpHandler(app_manager.RyuApp):
             # if self.built == 0:
             saver = tf.compat.v1.train.Saver()
             saver.restore(
-                sess, '/home/hao/backup_thesis/mix_nsf1ms_gbn_1ms350/model.ckpt-120000')
+                sess, '/home/hao/thesis_code/model/mix_nsf1ms_gbn_1ms350/model.ckpt-99114')
             # saver.restore(sess,'/home/hao/backup_thesis/0605/0605/model.ckpt-46825')
             hats = []
 

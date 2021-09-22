@@ -32,7 +32,7 @@ import sys
 sys.path.append('/home/hao/.local/lib/python3.6/site-packages')
 sys.path.append('/usr/lib/python3.6')
 graphPredict = tf.Graph()
-graph_path = '/home/hao/backup_thesis/nsfnetbw/graph_attr.txt'
+graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/nsfnetbw/graph_attr.txt'
 G = nx.Graph()
 G = nx.read_gml(graph_path, destringizer=int)
 
