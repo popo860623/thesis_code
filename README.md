@@ -27,6 +27,8 @@ sudo pip3 install numpy==1.19.5
 sudo pip install numpy==1.16.6
 sudo pip3 install pandas=1.1.5
 ```
+### Mininet installation
+[mininet install](https://hackmd.io/3N2L8HzzQhKqw6hXQDZhcg?view)
 
 ## Quick start
 ### Start mininet
@@ -41,10 +43,9 @@ $ sudo python nsfnet_topo.py
 $ cd /home/hao/thesis_code/controller
 $ ryu-manager --observe-links main.py
 ```
+![](https://github.com/popo860623/thesis_code/blob/main/doc/start%20controller.gif?raw=true)
 
 
-#### Mininet installation
-[mininet install](https://hackmd.io/3N2L8HzzQhKqw6hXQDZhcg?view)
 
 ## Folder description
 ## Topology and data generation
@@ -53,6 +54,11 @@ $ ryu-manager --observe-links main.py
 3. data transfomer (ping log to TFRecord)
 
 [Data generation tutorial](https://github.com/popo860623/thesis_code/tree/main/Topology%20and%20data_generation)
+
+## RouteNet
+1. RouteNet program
+
+[RouteNet training tutorial](https://github.com/popo860623/thesis_code/tree/main/RouteNet)
 ## controller
 1. SDN controller
 1. main.py program is the controller entry point
