@@ -18,15 +18,15 @@ delays = []
 # traffic_dir_op='2ms/'
 # traffic_dir_op='nsf_1KB_2ms/'
 # traffic_dir_op='nsf_1KB_1ms_add_node/'
-traffic_dir_op='new_result_test/1ms/'
+# traffic_dir_op='new_result_test/1ms/'
+traffic_dir_op='example/traffic_dir/'
 f = []
-tf_dir = 'data_per_200'
 
 # folder_list = os.listdir('./traffic_dir/data_per_200/' + traffic_dir_op)
 
 # folder_list = os.listdir('./traffic_dir/Result_Test/' + traffic_dir_op)
 
-folder_list = os.listdir('./traffic_dir/' + traffic_dir_op)
+folder_list = os.listdir('/home/hao/thesis_code/' + traffic_dir_op)
 
 def _int64_feature(value):
         return tf.compat.v1.train.Feature(int64_list=tf.compat.v1.train.Int64List(value=[value]))
@@ -38,7 +38,7 @@ def _int64_features(value):
 def _float_features(value):
     return tf.compat.v1.train.Feature(float_list=tf.compat.v1.train.FloatList(value=value))
 
-graph = nx.read_gml('nsfnetbw/graph_attr.txt',destringizer=int)
+graph = nx.read_gml('/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/nsfnetbw/graph_attr.txt',destringizer=int)
 # graph = nx.read_gml('nsfnetbw/graph_attr_add_1213.txt',destringizer=int)
 # graph = nx.read_gml('nsfnetbw/graph_attr_remove_512.txt',destringizer=int)
 # graph = nx.read_gml('nsfnetbw/graph_attr_remove_03.txt',destringizer=int)
@@ -96,13 +96,13 @@ def make_tfrecord(paths=[],delays=[],traffics=[],packet_loss=[],i=0):
     link_capacities = link_capacities * 1.E-4
     # time.sleep(0.001)
 
-    if not os.path.exists('./topology/tfrecords/' + traffic_dir_op):
-        os.makedirs('./topology/tfrecords/' + traffic_dir_op)
-    writer = tf.io.TFRecordWriter('./topology/tfrecords/' + traffic_dir_op + str(i) + '.tfrecords')
+    # if not os.path.exists('/home/hao/thesis_code/example/tfrecords/' + traffic_dir_op):
+    #     os.makedirs('/home/hao/thesis_code/example/tfrecords/' + traffic_dir_op)
+    # writer = tf.io.TFRecordWriter('/home/hao/thesis_code/example/tfrecords/' + traffic_dir_op + str(i) + '.tfrecords')
 
-    # if not os.path.exists('./topology/tfrecords/tmp'):
-    #     os.makedirs('./topology/tfrecords/tmp')
-    # writer = tf.io.TFRecordWriter('./topology/tfrecords/tmp/' + str(i) + '.tfrecords')
+    if not os.path.exists('/home/hao/thesis_code/example/tfrecords/'):
+        os.makedirs('/home/hao/thesis_code/example/tfrecords/')
+    writer = tf.io.TFRecordWriter('/home/hao/thesis_code/example/tfrecords/' + str(i) + '.tfrecords')
 
     if len(paths) > 0:
         # print('paths = ', paths)
@@ -140,9 +140,9 @@ def make_tfrecord(paths=[],delays=[],traffics=[],packet_loss=[],i=0):
 
 def split_tfrecords():
     print('********************************************')
-    tfr_train = '/home/hao/backup_thesis/topology/tfrecords/' + 'train_nsf_1KB_2ms_200/'
-    tfr_evaluate = '/home/hao/backup_thesis/topology/tfrecords/' + 'eval_nsf_1KB_2ms_200/'
-    tfr_test = '/home/hao/backup_thesis/topology/tfrecords/' + 'test_nsf_1KB_2ms_200/'
+    tfr_train = '/home/hao/thesis_code/example/tfrecords/' + 'train_example/'
+    tfr_evaluate = '/home/hao/thesis_code/example/tfrecords/' + 'eval_example/'
+    tfr_test = '/home/hao/thesis_code/example/tfrecords/' + 'test_example/'
     if not os.path.exists(tfr_train):
         os.makedirs(tfr_train)
     if not os.path.exists(tfr_evaluate):
@@ -150,7 +150,7 @@ def split_tfrecords():
     if not os.path.exists(tfr_test):
         os.makedirs(tfr_test)
 
-    tfrecords = glob.glob('./topology/tfrecords/tmp/' + '*.tfrecords')
+    tfrecords = glob.glob('/home/hao/thesis_code/example/tfrecords/' + '*.tfrecords')
     training = len(tfrecords) * 0.8
     print('Num of training data = ', len(tfrecords))
 
@@ -189,7 +189,7 @@ for folder in folder_list:
     # print('Making Folder ', './traffic_dir/' + op + folder + ' to TFRecodes.... ')
 
     # add links (12,13)
-    for (dirpath, dirnames, filenames) in walk('./traffic_dir/' + traffic_dir_op + folder):
+    for (dirpath, dirnames, filenames) in walk('/home/hao/thesis_code/' + traffic_dir_op + folder):
         f.extend(filenames)
 
     # change path nsfnet
@@ -207,7 +207,7 @@ for folder in folder_list:
     packet_loss = []
     for fname in f:   
         # add links (12,13)
-        with open('./traffic_dir/' + traffic_dir_op + folder  + "/" + fname) as fi: 
+        with open('/home/hao/thesis_code/' + traffic_dir_op + folder  + "/" + fname) as fi: 
 
         # change path per set    
         # with open('./traffic_dir/Result_Test/Changepath/' + op + folder  + "/" + fname) as fi: 
@@ -255,4 +255,4 @@ for folder in folder_list:
     i+=1
     make_tfrecord(paths,delays,traffics,packet_loss,i)
 
-# split_tfrecords()
+split_tfrecords()

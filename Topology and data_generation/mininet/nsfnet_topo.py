@@ -15,11 +15,11 @@ import time
 import sys
 
 from mininet.util import waitListening
-graph_path = 'nsfnetbw/graph_attr.txt'
-# graph_path = 'nsfnetbw/graph_attr_remove_03.txt' # remove (0,3)
-# graph_path = 'nsfnetbw/graph_attr_remove_109.txt' # remove (10,9)
-# graph_path = 'nsfnetbw/graph_attr_add_1213.txt'
-# graph_path = 'nsfnetbw/graph_attr_add_313.txt'
+graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/nsfnetbw/graph_attr.txt'
+# graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/nsfnetbw/graph_attr_remove_03.txt' # remove (0,3)
+# graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/nsfnetbw/graph_attr_remove_109.txt' # remove (10,9)
+# graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/nsfnetbw/graph_attr_add_1213.txt'
+# graph_path = '/home/hao/thesis_code/Topology and data_generation/NetworkX_graph_file/nsfnetbw/graph_attr_add_313.txt'
 
 G = nx.Graph()
 
@@ -102,7 +102,7 @@ def MyNetwork(net, cmd='/usr/sbin/sshd', opts='-D', ip='10.123.123.1/32', routes
             user_input = "QUIT"
 
         if user_input.upper() == "GEN":
-            generate_flow(net, 50, G)
+            generate_flow(net, 10, G)
 
         elif user_input.upper() == "CLI":
             info("Running CLI...\n")
@@ -134,7 +134,7 @@ def generate_flow(net, n_files, G):
                 all_pairs_shortest_path.append(nx.shortest_path(G, i, j))
 
     while n_files:
-        traffic_dir = 'traffic_dir/new_result_test_util/RPSP/10ms/'  # log file output directory
+        traffic_dir = '/home/hao/thesis_code/example/traffic_dir/'  # log file output directory
         if not os.path.exists(traffic_dir + str(n_files)):
             os.makedirs(traffic_dir + str(n_files))
             traffic_dir += str(n_files)
