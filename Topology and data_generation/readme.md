@@ -52,18 +52,18 @@ class ShortestPath(app_manager.RyuApp):
 ```
 
 3. Mininet啟動拓樸後，會看到以下畫面 (e.g. nsfnet_topo.py):
+     {%youtube AiJXgMgVckc %}
 
-    ![](https://github.com/popo860623/thesis_code/blob/main/doc/start%20mn.gif?raw=true)
 
     有**三個指令**可以控制
 
     * GEN : 用於產生Flow data set(產生資料集與實驗Utilization都會用到)
-    ![](https://github.com/popo860623/thesis_code/blob/main/doc/gen%20data.gif?raw=true)
+    {%youtube 7gsySbcjqJI %}
     * 此處可以配置寫入路徑
     ![](https://i.imgur.com/JX3HK96.png)
 
     * CLI : 進入原Mininet command line interface(CLI介面) (可下Pingall等Mininet提供的指令)
-    ![](https://github.com/popo860623/thesis_code/blob/main/doc/cli.gif?raw=true)
+    {%youtube wLS8K7QmcJk %}
 
     * QUIT : 關閉Mininet
 
@@ -106,7 +106,7 @@ class ShortestPath(app_manager.RyuApp):
      ```=shell
    sudo python3 TFRecord transformer/data_generator_nsf.py
    ```
-    ![](https://github.com/popo860623/thesis_code/blob/main/doc/tfrecord.gif?raw=true)
+    {%youtube cYpice0uS8Q %}
     
 #### 訓練
 將資料都轉為TFRecord後，可開始訓練，參考:
