@@ -51,8 +51,12 @@ class ShortestPath(app_manager.RyuApp):
     }
 ```
 
+
+
+
+
 3. Mininet啟動拓樸後，會看到以下畫面 (e.g. nsfnet_topo.py):
-     {%youtube AiJXgMgVckc %}
+     https://user-images.githubusercontent.com/53852453/134792891-f1bbf44c-8fa5-495a-8150-b25930be0479.mp4
 
 
     有**三個指令**可以控制
@@ -63,7 +67,8 @@ class ShortestPath(app_manager.RyuApp):
     ![](https://i.imgur.com/JX3HK96.png)
 
     * CLI : 進入原Mininet command line interface(CLI介面) (可下Pingall等Mininet提供的指令)
-    {%youtube wLS8K7QmcJk %}
+	https://user-images.githubusercontent.com/53852453/134792906-1d0ab249-f480-4849-bb40-47a84cd3184b.mp4
+
 
     * QUIT : 關閉Mininet
 
@@ -106,8 +111,9 @@ class ShortestPath(app_manager.RyuApp):
      ```=shell
    sudo python3 TFRecord transformer/data_generator_nsf.py
    ```
-    {%youtube cYpice0uS8Q %}
-    
+    https://user-images.githubusercontent.com/53852453/134792920-9e17aaa5-142f-4eb2-9072-ab81c5bd55b5.mp4
+
+
 #### 訓練
 將資料都轉為TFRecord後，可開始訓練，參考:
 [Train RouteNet Model](https://hackmd.io/1uN64n13Rimi45pzZGAqWQ?view)
