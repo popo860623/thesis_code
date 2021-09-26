@@ -57,7 +57,11 @@ class ShortestPath(app_manager.RyuApp):
 
 3. Mininet啟動拓樸後，會看到以下畫面 (e.g. nsfnet_topo.py):
 
-     https://user-images.githubusercontent.com/53852453/134792891-f1bbf44c-8fa5-495a-8150-b25930be0479.mp4
+
+https://user-images.githubusercontent.com/53852453/134792967-d341e508-bc23-47ea-b7a3-e17d03e0cc93.mp4
+
+
+     
 
 
     有**三個指令**可以控制
