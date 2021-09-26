@@ -56,13 +56,18 @@ class ShortestPath(app_manager.RyuApp):
 
 
 3. Mininet啟動拓樸後，會看到以下畫面 (e.g. nsfnet_topo.py):
+
      https://user-images.githubusercontent.com/53852453/134792891-f1bbf44c-8fa5-495a-8150-b25930be0479.mp4
 
 
     有**三個指令**可以控制
 
     * GEN : 用於產生Flow data set(產生資料集與實驗Utilization都會用到)
-    {%youtube 7gsySbcjqJI %}
+    
+
+https://user-images.githubusercontent.com/53852453/134792958-c753d40b-a2b2-4445-985b-cf35e32d6ee5.mp4
+
+
     * 此處可以配置寫入路徑
     ![](https://i.imgur.com/JX3HK96.png)
 
