@@ -31,7 +31,10 @@ $ cd /home/hao/RouteNet/
 $ ./run_routenet.sh train /home/hao/example/tfrecords/ 100000
 ```
 
-![](https://github.com/popo860623/thesis_code/blob/main/doc/training.gif?raw=true)
+
+https://user-images.githubusercontent.com/53852453/134793006-60883b40-f31c-49ee-ad16-a5aa9078d5e4.mp4
+
+
 
 ### Evaluation
 模型訓練完成後，要測試模型的效果請參考:
