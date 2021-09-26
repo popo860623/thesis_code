@@ -36,15 +36,17 @@ sudo pip3 install pandas=1.1.5
 $ cd ~/thesis_code/Topology_and_data_generation/mininet/
 $ sudo python nsfnet_topo.py
 ```
-![](https://github.com/popo860623/thesis_code/blob/main/doc/start%20mn.gif?raw=true)
+
+https://user-images.githubusercontent.com/53852453/134792984-486a5732-6471-4a42-9d1d-ebb970e3b0b2.mp4
+
 
 ### Start controller
 ```shell=
 $ cd /home/hao/thesis_code/controller
 $ ryu-manager --observe-links main.py
 ```
-![](https://github.com/popo860623/thesis_code/blob/main/doc/start%20controller.gif?raw=true)
 
+https://user-images.githubusercontent.com/53852453/134792988-7864685c-7be6-4aa7-ab9d-76fb478eaaf4.mp4
 
 
 ## Folder description
