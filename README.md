@@ -83,6 +83,6 @@ https://user-images.githubusercontent.com/53852453/134792988-7864685c-7be6-4aa7-
 
 [RouteNet Demo & Evaluation](https://hackmd.io/SvDHWK8zQmagns5XAhT6DQ?view)
 
-
+[Tensorboard tutorial] (https://hackmd.io/KxXGO_V8Rw6sTiCfhLeyTg?view)
 
 
